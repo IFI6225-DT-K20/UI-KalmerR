@@ -1,7 +1,8 @@
-body {
+body, html {
     width: 100%;
     position: absolute;
     overflow-x: hidden;
+    margin: 0;
 }
 
 div.jumbotron {
@@ -54,4 +55,28 @@ h2 {
 
 .yellow-highlight {
     color: yellow;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.conference_topic_images{
+    text-align: center;
+}
+
+.column{
+    display: inline-block;
+}
+
+h2.intro_text{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 200;
+    line-height: 3.5rem;
+    color: black;
+    text-align: center;
 }
