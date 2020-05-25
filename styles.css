@@ -70,6 +70,7 @@ h2 {
 
 .column{
     display: inline-block;
+    margin: 10px;
 }
 
 h2.intro_text{
@@ -78,5 +79,34 @@ h2.intro_text{
     font-weight: 200;
     line-height: 3.5rem;
     color: black;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    border-radius: 5px;
+}
+
+h1.updates{
+    margin-top: 10%;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 4rem;
+    color: black;
+    text-align: center;
+}
+
+.updates_yellow-highlight{
+    color: blue;
+}
+
+h2.update_h2{
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.btn.btn-warning{
+    display: inline-block;
     text-align: center;
 }
