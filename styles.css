@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+div.jumbotron {
+    background-color: #2f61ce;
+    height: 100%;
+}
+
+div.logo{
+    width: 150px;
+    height: 30px;
+    left: 250px;
+};
+
+.container {
+    color: #2f61ce;
+    height: auto;
+}
+
+.navbar {
+    left: 750px;
+    background: transparent;
+}
+
+.nav-link{
+    font-size: 20px;
+    max-width: 200px;
+}
